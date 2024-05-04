@@ -1,0 +1,370 @@
+/*Index*/
+
+@media (max-width: 320px) {
+  .header-index {
+    display: flex;
+    justify-content: center;
+    h1 {
+      font-size: 15px;
+    }
+  }
+  .main-index {
+    .secciones {
+      h2 {
+        margin: 45px !important;
+        font-size: 15px;
+      }
+      .contenedor-card {
+        width: 80%;
+
+        .contenedor-grid {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr) !important;
+          gap: 20px;
+          .card {
+            overflow: auto;
+            height: 400px !important;
+            margin-bottom: 50px;
+            .card-body {
+              a {
+                animation-name: zoom;
+                animation-duration: 1s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul {
+      margin-right: 150px;
+      li {
+        list-style: none;
+        display: inline-block;
+        width: 35px !important;
+        a {
+          margin-left: 0px !important;
+
+          img {
+            animation-name: rotar;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Barcos*/
+
+@media only screen and (max-width: 320px) {
+  .header-barcos {
+    display: flex;
+    justify-content: center;
+    border: 0px solid #000;
+    box-shadow: 0px 0px 0px orange;
+    h1 {
+      font-size: 15px;
+    }
+  }
+  .section-barcos {
+    background-image: url("https://ichef.bbci.co.uk/ace/ws/640/amz/worldservice/live/assets/images/2015/06/10/150610151327_ciencia_mar_azul_624x351_getty.jpg");
+    h2 {
+      margin: 45px !important;
+      font-size: 45px;
+    }
+    .sunny {
+      h3 {
+        padding: 50px;
+        font-size: 30px !important;
+      }
+      img {
+        width: 250px;
+        height: 200px !important;
+        margin-left: auto;
+      }
+      p {
+        width: 300px !important;
+        margin-left: 0px !important;
+        padding: 15px;
+      }
+    }
+
+    .moby {
+      h3 {
+        padding: 50px;
+        font-size: 15px;
+      }
+      img {
+        width: 250px;
+        height: 200px !important;
+        margin-left: auto;
+      }
+      p {
+        width: 300px !important;
+        margin-left: 0px !important;
+        padding: 15px;
+      }
+    }
+    .jackson {
+      h3 {
+        padding: 50px;
+        font-size: 15px;
+      }
+      img {
+        width: 250px;
+        height: 200px !important;
+        margin-left: auto;
+      }
+      p {
+        width: 300px !important;
+        margin-left: 0px !important;
+        padding: 15px;
+      }
+    }
+  }
+}
+
+.footer-barcos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ul {
+    margin-right: 150px;
+    li {
+      list-style: none;
+      display: inline-block;
+      width: 35px !important;
+      a {
+        margin-left: 0px !important;
+
+        img {
+          animation-name: rotar;
+          animation-duration: 2s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+      }
+    }
+  }
+}
+
+/*Frutas*/
+
+@media only screen and (max-width: 320px) {
+  .header-frutas {
+    display: flex;
+    justify-content: center;
+    border: 0px solid #000;
+    box-shadow: 0px 0px 0px orange;
+    h1 {
+      font-size: 15px;
+    }
+  }
+  .main-frutas {
+    .galeria-frutas {
+      h2 {
+        margin: 45px !important;
+        font-size: 25px;
+      }
+      .contenedor {
+        p {
+          width: 150px;
+        }
+      }
+    }
+  }
+
+  .footer-frutas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul {
+      margin-right: 150px;
+      li {
+        list-style: none;
+        display: inline-block;
+        width: 35px !important;
+        a {
+          margin-left: 0px !important;
+
+          img {
+            animation-name: rotar;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Villanos*/
+
+@media only screen and (max-width: 320px) {
+  .header-villanos {
+    display: flex;
+    justify-content: center;
+    border: 0px solid #000;
+    box-shadow: 0px 0px 0px orange;
+    h1 {
+      font-size: 15px;
+    }
+  }
+
+  .main-villanos {
+    .villanos {
+      h2 {
+        margin: 45px !important;
+        font-size: 25px;
+      }
+      .kaido {
+        h3 {
+          padding: 50px;
+          font-size: 30px !important;
+        }
+        img {
+          width: 250px;
+          height: 200px !important;
+          margin-left: auto;
+        }
+        p {
+          width: 300px !important;
+          margin-left: 0px !important;
+          padding: 15px;
+        }
+      }
+      .enel {
+        h3 {
+          padding: 50px;
+          font-size: 30px !important;
+        }
+        img {
+          width: 250px;
+          height: 200px !important;
+          margin-left: auto;
+        }
+        p {
+          width: 300px !important;
+          margin-left: 0px !important;
+          padding: 15px;
+        }
+      }
+      .doflamingo {
+        h3 {
+          padding: 50px;
+          font-size: 30px !important;
+        }
+        img {
+          width: 250px;
+          height: 200px !important;
+          margin-left: auto;
+        }
+        p {
+          width: 300px !important;
+          margin-left: 0px !important;
+          padding: 15px;
+        }
+      }
+    }
+  }
+
+  .footer-villanos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul {
+      margin-right: 150px;
+      li {
+        list-style: none;
+        display: inline-block;
+        width: 35px !important;
+        a {
+          margin-left: 0px !important;
+
+          img {
+            animation-name: rotar;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Tripulacion de Luffy*/
+
+@media only screen and (max-width: 320px) {
+  .header-tripulacion {
+    display: flex;
+    justify-content: center;
+    border: 0px solid #000;
+    box-shadow: 0px 0px 0px orange;
+    h1 {
+      font-size: 15px;
+    }
+  }
+
+  .main-tripulacion {
+    width: 80%;
+    section {
+      h2 {
+        margin: 45px !important;
+        font-size: 25px;
+      }
+
+      .contenedor-tripulacion {
+        margin-left: 40px !important;
+        width: 80%;
+        .card {
+          margin-bottom: 50px !important;
+          .card-body {
+            .fruta-animacion {
+              width: 50px;
+              animation-name: fruta-animacion-mobile !important;
+              animation-duration: 10s;
+              animation-iteration-count: infinite;
+              animation-timing-function: linear;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer-tripulacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul {
+      margin-right: 150px;
+      li {
+        list-style: none;
+        display: inline-block;
+        width: 35px !important;
+        a {
+          margin-left: 0px !important;
+
+          img {
+            animation-name: rotar;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+          }
+        }
+      }
+    }
+  }
+}

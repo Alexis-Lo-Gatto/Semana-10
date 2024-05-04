@@ -1,0 +1,35 @@
+@import "../utilities/utilities";
+
+/*Footer Index*/
+
+.footer-index{
+    @include estilo-footer();
+}
+
+
+/*Footer Frutas*/
+
+.footer-frutas{
+    @include estilo-footer();
+}
+
+
+/*Footer Villanos*/
+
+.footer-villanos{
+    @include estilo-footer();
+}
+
+
+/*Footer Barcos*/
+
+.footer-barcos{
+    @include estilo-footer();
+}
+
+/*Footer Tripulacion de Luffy*/
+
+.footer-tripulacion{
+    @include estilo-footer();
+}
+

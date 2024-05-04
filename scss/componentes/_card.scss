@@ -1,0 +1,152 @@
+@import "../utilities/utilities";
+
+/*Card Index*/
+
+.main-index {
+  .secciones {
+    .contenedor-card {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+
+      .contenedor-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 150px;
+        .card {
+          overflow: auto;
+          height: 400px !important;
+          margin-bottom: 50px;
+          .card-body {
+            a {
+              animation-name: zoom;
+              animation-duration: 1s;
+              animation-timing-function: linear;
+              animation-iteration-count: infinite;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Card Tripulacion de Luffy*/
+
+.main-tripulacion {
+  section {
+    h2 {
+      display: inline-block;
+      margin: 30px 0 30px 750px;
+      font-family: Arial, Helvetica, sans-serif;
+      @extend .color-naranja-sacle;
+    }
+    .contenedor-tripulacion {
+      margin-left: 650px;
+      .card {
+        margin-bottom: 50px !important;
+        .card-body {
+          .fruta-animacion {
+            width: 50px;
+            animation-name: fruta-animacion;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+          }
+        }
+      }
+
+      .zoro {
+        filter: grayscale(100%);
+        transition: all 0.5s;
+        &:hover {
+          filter: grayscale(0%);
+          -webkit-box-shadow: 10px 10px 47px 41px rgba(0, 255, 30, 0.62);
+          -moz-box-shadow: 10px 10px 47px 41px rgba(0, 255, 30, 0.62);
+          box-shadow: 10px 10px 47px 41px rgba(0, 255, 30, 0.62);
+        }
+      }
+      .sanji {
+        filter: grayscale(100%);
+        transition: all 0.5s;
+        &:hover {
+          filter: grayscale(0%);
+          -webkit-box-shadow: 10px 10px 47px 41px rgba(237, 244, 70, 1);
+          -moz-box-shadow: 10px 10px 47px 41px rgba(237, 244, 70, 1);
+          box-shadow: 10px 10px 47px 41px rgba(237, 244, 70, 1);
+        }
+      }
+      .nami {
+        filter: grayscale(100%);
+        transition: all 0.5s;
+        &:hover {
+          filter: grayscale(0%);
+          -webkit-box-shadow: 10px 10px 47px 41px rgba(225, 129, 62, 1);
+          -moz-box-shadow: 10px 10px 47px 41px rgba(225, 129, 62, 1);
+          box-shadow: 10px 10px 47px 41px rgba(225, 129, 62, 1);
+        }
+      }
+      .usopp {
+        filter: grayscale(100%);
+        transition: all 0.5s;
+        &:hover {
+          filter: grayscale(0%);
+          -webkit-box-shadow: 10px 10px 47px 41px rgba(140, 77, 23, 1);
+          -moz-box-shadow: 10px 10px 47px 41px rgba(140, 77, 23, 1);
+          box-shadow: 10px 10px 47px 41px rgba(140, 77, 23, 1);
+        }
+      }
+      .chopper {
+        filter: grayscale(100%);
+        transition: all 0.5s;
+        &:hover {
+          filter: grayscale(0%);
+          -webkit-box-shadow: 10px 10px 47px 41px rgba(138, 125, 215, 1);
+          -moz-box-shadow: 10px 10px 47px 41px rgba(138, 125, 215, 1);
+          box-shadow: 10px 10px 47px 41px rgba(138, 125, 215, 1);
+        }
+      }
+      .brook {
+        filter: grayscale(100%);
+        transition: all 0.5s;
+        &:hover {
+          filter: grayscale(0%);
+          -webkit-box-shadow: 10px 10px 47px 41px rgba(0, 0, 0, 1);
+          -moz-box-shadow: 10px 10px 47px 41px rgba(0, 0, 0, 1);
+          box-shadow: 10px 10px 47px 41px rgba(0, 0, 0, 1);
+        }
+      }
+      .robin {
+        filter: grayscale(100%);
+        transition: all 0.5s;
+        &:hover {
+          filter: grayscale(0%);
+          -webkit-box-shadow: 10px 10px 47px 41px rgba(0, 255, 170, 1);
+          -moz-box-shadow: 10px 10px 47px 41px rgba(0, 255, 170, 1);
+          box-shadow: 10px 10px 47px 41px rgba(0, 255, 170, 1);
+        }
+      }
+      .franky {
+        filter: grayscale(100%);
+        transition: all 0.5s;
+        &:hover {
+          filter: grayscale(0%);
+          -webkit-box-shadow: 10px 10px 47px 41px rgba(120, 183, 249, 1);
+          -moz-box-shadow: 10px 10px 47px 41px rgba(120, 183, 249, 1);
+          box-shadow: 10px 10px 47px 41px rgba(120, 183, 249, 1);
+        }
+      }
+      .jinbe {
+        filter: grayscale(100%);
+        transition: all 0.5s;
+        &:hover {
+          filter: grayscale(0%);
+          -webkit-box-shadow: 10px 10px 47px 41px rgba(146, 186, 222, 1);
+          -moz-box-shadow: 10px 10px 47px 41px rgba(146, 186, 222, 1);
+          box-shadow: 10px 10px 47px 41px rgba(146, 186, 222, 1);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+/*Estilos para los nav y titulos*/
+
+
+@keyframes zoom {
+  10% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.09);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.color-naranja-sacle {
+  &:hover {
+    color: rgb(255, 166, 0) !important;
+    transform: scale(1.09);
+  }
+}
+
+@mixin estilo-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  header {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    padding: 15px;
+    @extend .color-naranja-sacle;
+  }
+
+  nav {
+    background-color: rgb(216, 216, 216) !important;
+    div {
+      div {
+        ul {
+          li {
+            list-style: none;
+            a {
+              text-decoration: none;
+              margin: 25px;
+              font-size: 18px;
+              font-family: Arial, Helvetica, sans-serif;
+              @extend .color-naranja-sacle;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin estilo-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 166, 0) !important;
+  height: 100px;
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul {
+    li {
+      list-style: none;
+      display: inline-block;
+      a {
+        margin: 50px;
+        img {
+          animation-name: rotar;
+          animation-duration: 2s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+      }
+    }
+  }
+}
+
+/*Rota sobre su propio eje de forma horizontal*/
+
+@keyframes rotar {
+  10% {
+    transform: rotateY(360deg) scale(1);
+  }
+  50% {
+    transform: rotateY(360deg) scale(1.1);
+  }
+
+  100% {
+    transform: rotateY(360deg) scale(1);
+  }
+}
+
+/*Animacion de frutas para que se muevan*/
+
+@keyframes fruta-animacion {
+  20% {
+    transform: translateX(-150px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(250px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+/*Animacion de frutas para que se muevan*/
+
+
+@keyframes fruta-animacion-mobile {
+  20% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(130px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
